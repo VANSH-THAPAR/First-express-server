@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(35, 34, 34);
+    color: white;
+}
+.parent-box{
+    padding: 2px;
+}
+#inputTitle{
+    background: rgb(50, 49, 49);
+    width: 100%;
+    margin: 2px;
+    height: 30px;
+    font-weight: 600;
+    box-shadow: none;
+    color: white;
+    border-radius: 5px;
+}
+#descriptionBox{
+    background: rgb(50, 49, 49);
+    margin: 5px;
+    width: 100%;
+    height: 50px;
+    font-weight: 300;
+    color: white;
+    border-radius: 5px;
+}
+.submit{
+    background: rgb(1, 111, 207);
+    color: white;
+    font-weight: 700;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    margin: 4px;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px;
+}
+
+.box{
+    margin-top: 50px;
+    background: rgb(50, 49, 49);
+    min-width: 200px;
+    width: auto;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    text-wrap: wrap;
+}
+
+.title{
+    padding: 10px;   
+    font-family: poppins;
+    font-weight: 500;
+}
+.link{
+    color: rgb(39, 96, 255);
+    text-decoration: none;
+}
+.display-2{
+    padding: 15px;
+    font-family: poppins;
+}
